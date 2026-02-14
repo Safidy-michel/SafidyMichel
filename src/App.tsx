@@ -7,19 +7,16 @@ import  Footer  from "./components/Footer";
 
 export default function App() {
   return (
-    <body className="bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
-      {/* ✅ NAVBAR */}
+    <div className="bg-white text-gray-900 dark:bg-gray-900 dark:text-white min-h-screen">
+      
       <Header />
-      {/* ✅ SECTION PRÉSENTATION */}
       <Home />
-        {/* ✅ SECTION PROJETS */}
-      <Projet/>
-      {/* Eto ny resumé */}
-      <Resume/>
-      {/* ✅ SECTION CONTACT */}
-      <Contact/>
-      {/* ✅ FOOTER */}
+      <Projet />
+      <Resume />
+      <Contact />
       <Footer />
-    </body>
+
+    </div>
   );
 }
+

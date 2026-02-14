@@ -14,7 +14,7 @@ const Header = () => {
           {/* 2. Ampiasao ilay MotionLink vaovao eto */}
           <MotionLink 
             to="home" 
-            smooth={true} 
+            smooth={true}
             duration={800} 
             
             // Framer Motion animation
